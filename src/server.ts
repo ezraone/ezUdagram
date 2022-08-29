@@ -53,10 +53,10 @@ import {Request, Response} from 'express';
     if (valid) {
       const path: string = await filterImageFromURL(image_url);
       
-      res.sendFile(path, function() {
+      res.status(200).sendFile(path, function() {
         deleteLocalFiles([path])
       });
-      return res.status(200).send("The image URL is valid")
+      
     }
     else {
       return res.status(400).send("The image URL is incorrect, please enter a valid URL")

@@ -51,7 +51,7 @@ Add your own domain name and have it point to the running services (try adding a
 ezUdagram-dev4.us-east-1.elasticbeanstalk.com
 
 ### Github Repository:
-https://github.com/ezraone/UdagramApp
+https://github.com/ezraone/ezUdagram
 
 ### References:
 https://stackoverflow.com/questions/5717093/check-if-a-javascript-string-is-a-url
